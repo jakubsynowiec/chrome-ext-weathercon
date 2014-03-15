@@ -1,0 +1,23 @@
+{
+  "name": "<%= pkg.name %>",
+  "version": "<%= pkg.version %>",
+  "description": "<%= pkg.description %>.",
+  "icons": {
+    "128": "icons/icon_128.png"
+  },
+  "background": {
+    "persistent": false,
+    "scripts": ["bg.js"]
+  },
+  "browser_action": {
+    "default_title": "<%= pkg.name %>",
+    "default_icon": "icons/badge/na.png"
+  },
+  "permissions": [
+        "alarms",
+        "geolocation",
+        "storage",
+        "http://api.openweathermap.org/"
+    ],
+  "manifest_version": 2
+}
