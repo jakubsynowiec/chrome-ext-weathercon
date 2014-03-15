@@ -1,0 +1,33 @@
+{
+  "name": "Weathercon",
+  "description": "Chrome extension that shows current weather and temperature.",
+  "version": "0.0.0",
+  "author": "Jakub Synowiec <jakub@jakubsynowiec.info",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakubsynowiec/chrome-ext-weathercon.git"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "weather"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.3.1",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "load-grunt-tasks": "~0.3.0",
+    "time-grunt": "~0.2.8",
+    "jshint-stylish": "~0.1.5",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-bump": "~0.0.13",
+    "grunt-conventional-changelog": "~1.1.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
