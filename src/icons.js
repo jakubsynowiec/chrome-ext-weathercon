@@ -115,10 +115,10 @@ var openweatherIcons = (function () {
 
                         if (text) {
                             context.font = 'bold 8pt sans-serif';
-                            context.fillStyle = 'rgba(30, 30, 31, 0.75)';
-                            context.textAlign = 'right';
-                            context.textBaseline = 'bottom';
-                            context.fillText(text, 19, 19);
+                            context.fillStyle = 'rgba(32, 32, 36, 0.8)';
+                            context.textAlign = 'center';
+                            context.textBaseline = 'middle';
+                            context.fillText(text, 10, 10);
                         }
 
                         resolve(context.getImageData(0, 0, 19, 19));
