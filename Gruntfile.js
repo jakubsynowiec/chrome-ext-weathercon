@@ -80,11 +80,12 @@ module.exports = function (grunt) {
             dist: {
                 options: {
                     mangle: true,
-                    compress: true
+                    compress: {
+                        side_effects: false,
+                        unused: false
+                    }
                 },
-                files: {
-                    '<%= path.dist %>/bg.js': '<%= path.dist %>/bg.js'
-                }
+                files: ['<%= uglify.build.files %>']
             }
         },
         copy: {
