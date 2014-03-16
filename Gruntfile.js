@@ -123,9 +123,9 @@ module.exports = function (grunt) {
 
     grunt.registerTask('dist', [
         'jshint',
+        'bump-only:minor',
         'build',
         'uglify:dist',
-        'bump-only:minor',
         'changelog',
         'bump-commit'
     ]);
