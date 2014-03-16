@@ -1,7 +1,7 @@
 {
   "name": "Weathercon",
   "description": "Chrome extension that shows current weather and temperature.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Jakub Synowiec <jakub@jakubsynowiec.info",
   "license": "MIT",
   "repository": {
