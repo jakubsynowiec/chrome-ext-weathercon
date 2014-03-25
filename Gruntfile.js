@@ -14,7 +14,7 @@ module.exports = function (grunt) {
         pkg: grunt.file.readJSON('package.json'),
         watch: {
             options: {
-                nospawn: true,
+                nospawn: true
             },
             scripts: {
                 files: ['<%= jshint.scripts %>'],
@@ -38,7 +38,7 @@ module.exports = function (grunt) {
             ],
             scripts: [
                 '<%= path.src %>/**/*.js',
-                '!<%= path.src %>/vendor/**/*.js',
+                '!<%= path.src %>/vendor/**/*.js'
             ],
             all: [
                 'Gruntfile.js',
